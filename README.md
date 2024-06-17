@@ -24,14 +24,13 @@ This project is a clone of the classic Pong game implemented using Pygame. The g
 - **Game Physics:** Implements ball movement with varying bounce angles depending on the paddle hit location.
 - **User Input:** Supports player control through keyboard inputs.
 - **Scoring System:** Tracks and displays player scores, with a win condition based on reaching 10 points.
-##  Text-based Adventure Game (in progress)
-- This project is a text-based adventure game engine where the player navigates through different locations, interacts with objects and characters, and performs various actions. The game is designed to be flexible and expandable, allowing for easy addition of new locations, items, and characters.
+##  Text-based Adventure Game Engine (in progress)
+- This project is a rudimentary text-based game engine, showcasing my ability to work with various data structures and implement game logic for text-based adventure games. It involves moving between nodes/locations, picking up items, checking inventory, and interacting with objects. This project demands significant tinkering with different data structures and objects that refer to other objects.
 ### Features:
-- **Player Movement:** Navigate through different locations using directional commands.
-- **Item Interaction:** Pick up and use items found in various locations.
-- **Location Descriptions:** Detailed descriptions of surroundings to enhance immersion.
-- **Inventory Management:** Track and manage items collected by the player.
-- **Character Interaction:** Encounter and potentially interact with characters in different locations.
+- **Game State Management:** Efficiently handles the game state, including the player's inventory, current location, and game progress.
+- **Node-based Navigation:** Implements a system for moving between locations (nodes) in the game world.
+- **Item Interaction:** Allows players to pick up and use items, adding depth and interactivity to the game.
+- **Modular Design:** The engine is designed to be extended with new locations, items, and interactions, making it a flexible framework for creating various text-based games.
 
 ## Tic-Tac-Toe text based game
 This project is a simple text-based implementation of the classic Tic-Tac-Toe game. It showcases my ability to work with basic Python constructs, handle user input, and implement game logic, particularly the logic for determining the winner in a game.
